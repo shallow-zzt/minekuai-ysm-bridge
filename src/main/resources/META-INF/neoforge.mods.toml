@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="ysm_reload_bridge"
+version="1.0.0"
+displayName="YSM Reload Bridge"
+description="Reads SFTP requests and runs the fixed YSM reload command on the server thread."
+[[dependencies.ysm_reload_bridge]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,21.2)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.ysm_reload_bridge]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.ysm_reload_bridge]]
+modId="yes_steve_model"
+type="required"
+versionRange="[2.6.5,2.7)"
+ordering="AFTER"
+side="SERVER"
