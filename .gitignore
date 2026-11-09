@@ -1,0 +1,26 @@
+# Gradle and IDE state
+.gradle/
+build/
+out/
+run/
+runs/
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Private runtime configuration, credentials and logs
+config/
+data/
+logs/
+*.log
+.env
+.env.*
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
