@@ -1,5 +1,11 @@
 # Minekuai YSM Bridge
 
+> **此仓库已归档，仅保留旧版桥接方案的历史源码。**
+>
+> 请使用 [Minekuai YSM Web（API 新版）](https://github.com/shallow-zzt/minekuai-ysm-web)。新版通过 SFTP 上传模型，并直接调用麦块客户端 API 提交 `ysm model reload`，无需额外安装本仓库的桥接 JAR。
+>
+> 迁移时按新版 README 配置麦块实例 ID 和 API Key，保留原有 YSM 与模型文件。以下安装与使用说明仅适用于旧版桥接方案，本仓库不再维护。
+
 **适用于 Minekuai 麦块面板服的 YSM 上传管理工具：服务端重载桥。**
 
 这是一个 Minecraft Java / NeoForge 服务端辅助模组，配合 [Minekuai YSM Web](https://github.com/shallow-zzt/minekuai-ysm-web) 使用。网页经由面板已有的 SFTP 通道上传模型并写入重载请求，本模组在服务端读取请求，执行固定的 `ysm model reload` 命令，将结果写回文件供网页查询。
